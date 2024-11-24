@@ -25,7 +25,11 @@ footer{
     border-radius: 8px;
     padding: 20px;
     position: relative;
-        
+    
+    i{
+        font-size: 32px;
+    }
+
     a{
         width: 100%;
     }

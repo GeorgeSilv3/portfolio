@@ -15,6 +15,10 @@
     padding: 12px;
     border-radius: 12px;
 
+    &:hover{
+        border: 1px solid var(--gray-400);
+    }
+
     a{
         gap: 20px;
     }

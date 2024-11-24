@@ -54,3 +54,11 @@
 .text-sm{
     font: var(--text-sm);
 }
+
+.box-hover:hover{
+    border: 1px solid var(--blue);
+
+    i{
+        color: var(--blue);
+    }
+}
