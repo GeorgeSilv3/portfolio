@@ -7,11 +7,12 @@
 
 header{
     margin-inline: auto;
-    width: 1040px;
+    /* width: 1040px; */
 }
 
 #biografy{
     width: 680px;
+    margin-top: 120px;
     gap: 56px;
 }
 
