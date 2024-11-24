@@ -13,8 +13,11 @@
 .project{
     background-color: var(--gray-300);
     padding: 12px;
-    gap: 20px;
     border-radius: 12px;
+
+    a{
+        gap: 20px;
+    }
 
     img{
         border-radius: 8px;
