@@ -1,0 +1,47 @@
+footer{
+    gap: 48px;
+    padding-block: 128px 200px;
+    div{
+        gap: 8px;
+    }
+    span{
+        margin: 0;
+        color: var(--purple);
+    }
+}
+
+#social-medias{
+    gap: 16px;
+    width: 400px;
+    
+    
+
+    &>div{
+    width: 100%;
+    height: 68px;
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+        
+    a{
+        width: 100%;
+    }
+    }
+
+    .media{
+        img{
+            width: 24px;
+            aspect-ratio: 1/1;
+        }
+    }
+
+    img{
+        width: 20px;
+        aspect-ratio: 1/1;
+    }
+
+    strong{
+        color: var(--gray-500);
+    }
+}
