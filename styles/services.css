@@ -1,0 +1,19 @@
+#my-services{
+    background-color: var(--gray-100);
+    gap: 56px;
+    padding: 88px 120px 120px;
+}
+
+#services{
+    gap: 24px;
+}
+.single-service{
+    border: 1px solid var(--gray-200);
+    padding: 20px;
+    border-radius: 12px;
+
+    img{
+        width: 48px;
+        aspect-ratio: 1/1;
+    }
+}
