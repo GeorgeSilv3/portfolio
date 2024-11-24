@@ -1,0 +1,60 @@
+#header-intro{
+    gap: 94px;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: 100%;
+    padding-bottom: 57px;
+}
+
+header{
+    margin-inline: auto;
+    width: 1040px;
+}
+
+#biografy{
+    width: 680px;
+    gap: 56px;
+}
+
+#my-photo{
+    position: relative;
+    
+    img:nth-child(2){
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+    }
+}
+
+#biografy-text{
+
+    span{
+        color: var(--gray-500);
+        margin-bottom: 8px;
+    }
+
+    strong{
+        color: var(--red);
+        font-weight: 400;
+    }
+
+    h1{
+        margin-bottom: 20px;
+    }
+}
+
+nav{
+    gap: 16px;
+
+    img{
+        width: 24px;
+        height: 24px;
+    }
+
+    a{
+        padding: 8px 16px;
+        background-color: var(--gray-300);
+        border-radius: 999px;
+        height: 40px;
+        gap: 8px;
+    }
+}

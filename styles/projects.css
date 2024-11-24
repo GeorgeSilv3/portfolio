@@ -1,0 +1,31 @@
+#projects-section{
+    padding: 72px 120px 144px;
+    gap: 56px;
+}
+
+#projects-galery{
+    width: 1024px;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.project{
+    background-color: var(--gray-300);
+    padding: 12px;
+    gap: 20px;
+    border-radius: 12px;
+
+    img{
+        border-radius: 8px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &>div{
+        width: 100%;
+        padding: 4px;
+        gap: 8px;
+        align-items: flex-start;
+    }
+}
