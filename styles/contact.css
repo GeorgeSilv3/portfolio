@@ -1,6 +1,10 @@
 footer{
     gap: 48px;
+    width: 100%;
     padding-block: 128px 200px;
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: 100%;
+    object-fit: cover;
     div{
         gap: 8px;
     }
@@ -13,8 +17,6 @@ footer{
 #social-medias{
     gap: 16px;
     width: 400px;
-    
-    
 
     &>div{
     width: 100%;
